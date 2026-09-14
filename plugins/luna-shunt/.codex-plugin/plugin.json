@@ -1,0 +1,31 @@
+{
+  "name": "luna-shunt",
+  "version": "0.1.0",
+  "description": "Recommends shunting bulk file reads and boilerplate generation to Luna subagents to cut token usage.",
+  "author": {
+    "name": "macha434",
+    "url": "https://github.com/macha434"
+  },
+  "homepage": "https://github.com/macha434/luna-shunt",
+  "repository": "https://github.com/macha434/luna-shunt",
+  "license": "MIT",
+  "keywords": [
+    "cost",
+    "tokens",
+    "luna",
+    "subagent",
+    "context"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Luna Shunt",
+    "shortDescription": "Delegate bulk reads and boilerplate to Luna",
+    "longDescription": "Recommends delegating large file reads and mechanical code generation to gpt-5.6-luna subagents, so the bulk of the work never enters the main conversation's context.",
+    "developerName": "macha434",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": [
+      "大きいファイルの調査はluna-shuntで委譲して"
+    ]
+  }
+}

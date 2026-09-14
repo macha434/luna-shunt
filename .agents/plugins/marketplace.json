@@ -1,0 +1,20 @@
+{
+  "name": "macha434-plugins",
+  "interface": {
+    "displayName": "Macha434 Plugins"
+  },
+  "plugins": [
+    {
+      "name": "luna-shunt",
+      "source": {
+        "source": "local",
+        "path": "./plugins/luna-shunt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
